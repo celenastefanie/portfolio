@@ -10,9 +10,37 @@ html { box-sizing: border-box; -moz-text-size-adjust: 100%; -ms-text-size-adjust
   box-sizing: inherit;
 }
 
-h1, h2, h3 {
-  font-family: 'Anonymous Pro', monospace;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+body {
+  background-image: url("../images/yellow.jpg");
+  background-position: center -1em;
+  background-size: 350%;
+}
+
+header, h2, h3 {
   text-align: center;
+}
+
+h1, h2, h3 {
+  font-style: normal;
+  padding: 1.5em 1.5em .5em 1.5em;
+}
+
+h2, h3 {
+  font-family: "jaf-bernina-sans-condensed",sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "orator-std",sans-serif;
+  font-weight: 400;
+}
+
+.heart-img {
+  width: 30px;
+}
+
+.sm-icon {
+  width: 45px;
+  padding-right: .5em;
+  padding-left: .5em;
 }
