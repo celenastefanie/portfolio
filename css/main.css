@@ -44,3 +44,16 @@ h1 {
   padding-right: .5em;
   padding-left: .5em;
 }
+
+@media only screen and (min-width: 25em) {
+
+  body {
+    background-position: center -1.5em;
+    background-size: 325%;
+  }
+
+  h2, h3 {
+    padding: 1.5em 3em .5em 3em;
+  }
+
+}
