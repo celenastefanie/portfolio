@@ -13,26 +13,26 @@ html { box-sizing: border-box; -moz-text-size-adjust: 100%; -ms-text-size-adjust
 body {
   background-image: url("../images/yellow.jpg");
   background-position: center -1em;
-  background-size: 350%;
+  background-size: 420%;
 }
 
-header, h2, h3 {
+header, h2, h3, p, .sm-div {
   text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
   font-style: normal;
   padding: 1.5em 1.5em .5em 1.5em;
 }
 
-h2, h3 {
+h2, h3, p {
   font-family: "jaf-bernina-sans-condensed",sans-serif;
   font-weight: 300;
 }
 
 h1 {
   font-family: "orator-std",sans-serif;
-  font-weight: 400;
+  font-weight: 380;
 }
 
 .heart-img {
@@ -43,6 +43,12 @@ h1 {
   width: 45px;
   padding-right: .5em;
   padding-left: .5em;
+  margin-bottom: 1em;
+  margin-top: .5em;
+}
+
+.icon {
+  width: 200px;
 }
 
 @media only screen and (min-width: 25em) {
