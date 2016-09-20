@@ -14,6 +14,7 @@ body {
   background-image: url("../images/yellow.jpg");
   background-position: center -1em;
   background-size: 420%;
+  margin: 0;
 }
 
 header, h2, h3, p, .sm-div {
@@ -22,7 +23,7 @@ header, h2, h3, p, .sm-div {
 
 h1, h2, h3, p {
   font-style: normal;
-  padding: 1.5em 1.5em .5em 1.5em;
+  padding: 1.5em 2em .5em 2em;
 }
 
 h2, h3, p {
@@ -47,6 +48,9 @@ h1 {
   margin-top: .5em;
 }
 
+.icon-div {
+  text-align: center;
+}
 .icon {
   width: 200px;
 }
@@ -58,8 +62,41 @@ h1 {
     background-size: 325%;
   }
 
-  h2, h3 {
-    padding: 1.5em 3em .5em 3em;
+  p {
+    padding: 1.5em 4em .5em 4em;
   }
 
+}
+
+@media only screen and (min-width: 31em) {
+
+  p {
+    padding: 1.5em 8em .5em 8em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  p {
+    padding: 1.5em 1.5em .5em 1.5em;
+  }
+
+  .intro-div {
+    padding-left: 3.5em;
+    padding-top: 2em;
+  }
+
+  .intro-p {
+    text-align: right;
+    padding-right: .5em;
+  }
+
+  .icon-div {
+    padding-right: 3.5em;
+    padding-top: 2em;
+  }
+
+  .blurb {
+    margin: 0em 10em 1.5em 10em;
+  }
 }
