@@ -126,8 +126,8 @@ h1 {
 @media only screen and (min-width: 60em) {
 
   body {
-    background-position: center -1.05em;
-    background-size: 110%;
+    background-position: center -1em;
+    background-size: 130%;
   }
 
   .icon-div {
@@ -149,5 +149,13 @@ h1 {
 
   .blurb {
     margin: 0em 30% 1.5em 30%;
+  }
+}
+
+@media only screen and (min-width: 65em) {
+
+  body {
+    background-position: center -1em;
+    background-size: 115%;
   }
 }
